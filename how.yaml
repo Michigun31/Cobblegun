@@ -1,0 +1,8 @@
+build: ./gradlew clean build
+run:
+  fabric: ./gradlew fabric:runClient
+  neoforge: ./gradlew neoforge:runClient
+copyto:
+  fabric: version=$(grep "mod_version" "gradle.properties"); version="${version:12}"; cp "fabric/build/libs/cobblemon_autobattle-fabric-1.21.1-$version.jar" "$HOME/.local/share/ModrinthApp/profiles/Radical (fabric)/mods"
+  neoforge: version=$(grep "mod_version" "gradle.properties"); version="${version:12}"; cp "neoforge/build/libs/cobblemon_autobattle-neoforge-1.21.1-$version.jar" "$HOME/.local/share/ModrinthApp/profiles/rctapi-neoforge-0.13.8/mods"
+publish: inenv ./tools/publish
