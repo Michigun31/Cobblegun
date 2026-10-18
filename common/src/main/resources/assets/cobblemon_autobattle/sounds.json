@@ -1,0 +1,20 @@
+{
+  "jumpscare": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cobblemon_autobattle:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "shiny": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cobblemon_autobattle:shiny",
+        "stream": false
+      }
+    ]
+  }
+}
