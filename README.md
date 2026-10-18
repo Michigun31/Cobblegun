@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33623889/README.md)
 # 🔫 Cobblegun
 
 <div align="center">
