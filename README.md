@@ -24,5 +24,3 @@ You may configure a **key binding** in the **Minecraft options** to toggle `auto
 
 - [Cobblemon](https://modrinth.com/mod/cobblemon)
 - [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) (**fabric only**)
-
-[![bisecthosting](https://www.bisecthosting.com/partners/custom-banners/5ea61298-7966-4331-945f-da7b80663a38.webp)](https://bisecthosting.com/hd42)
