@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.gitlab.srcmc.cobblemon_autobattle.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "client.BattleGeneralActionSelectionMixin",
+    "client.BattleMoveSelectionMixin",
+    "client.BattleSwitchPokemonSelectionMixin",
+    "client.BattleTargetSelectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
