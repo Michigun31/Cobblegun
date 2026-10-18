@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "[${neoforge_loader_version},)"
+license = "${license}"
+#issueTrackerURL = ""
+
+[[mods]]
+modId = "cobblemon_autobattle"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_author}"
+logoFile = "icon.png"
+description = '''
+${mod_description}
+'''
+
+[[dependencies.cobblemon_autobattle]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neoforge_min_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_autobattle]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_autobattle]]
+modId = "architectury"
+type = "required"
+versionRange = "[${architectury_api_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobblemon_autobattle]]
+modId="cobblemon"
+type = "required"
+versionRange="[${cobblemon_min_version},${cobblemon_max_version})"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config = "cobblemon_autobattle.mixins.json"
