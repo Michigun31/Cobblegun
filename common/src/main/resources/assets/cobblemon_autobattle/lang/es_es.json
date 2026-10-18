@@ -1,0 +1,12 @@
+{
+    "key.cobblemon_autobattle.autobattle_enabled": "Activar/Desactivar Autobattle",
+    "key.cobblemon_autobattle.open_config": "Abrir Configuración de Autobattle",
+    "key.cobblemon_autobattle.panic": "Pánico Autobattle (Detener)",
+    "key.cobblemon_autobattle.toggle_anti_afk": "Alternar Anti-AFK",
+    "key.cobblemon_autobattle.send_out_all": "Lanzar todo el equipo",
+    "key.cobblemon_autobattle.recall_all": "Guardar todo el equipo",
+    "key.categories.cobblemon_autobattle": "Cobblegun",
+    "chat.cobblemon_autobattle.autobattle": "Autobattle",
+    "chat.cobblemon_autobattle.enabled": "activado",
+    "chat.cobblemon_autobattle.disabled": "desactivado"
+}
